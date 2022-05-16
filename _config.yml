@@ -1,10 +1,11 @@
 # Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+gems:                [jekyll-paginate]
+markdown:            redcarpet
+highlighter:         pygments
 
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
+#relative_permalinks: true
 
 # Setup
 title:            Software Engineering Management Blog
@@ -24,5 +25,3 @@ version:          2.1.0
 
 github:
   repo:           https://github.com/pplupo/blog
-
-theme: jekyll-theme-minimal
